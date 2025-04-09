@@ -213,17 +213,20 @@ img{
 .footer{
     background-color: var(--negro);
     height: 10rem;
-    
 }
 
-.barra-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@media (min-width: 768px) {
+    .barra-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        margin-top: 2rem;
     
-    margin-top: 2rem;
-
+    }
 }
+
+
 
 .logo-footer{
     color: var(--blanco);
@@ -235,6 +238,7 @@ img{
 .navegacion--footer{
     margin-top: 3rem;
     margin-right: 20rem;
+
 }
 
 .navegacion__enlace--footer{
