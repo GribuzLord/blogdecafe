@@ -92,12 +92,17 @@ img{
     }
 }
 
+.barra{
+    padding-top: 4rem;
+}
+
 @media (min-width: 768px) {
 
      .barra{
         display: flex;
         justify-content: space-between;
         align-items: center;
+
      }
 
 }
@@ -212,36 +217,6 @@ img{
 /*Footer*/
 .footer{
     background-color: var(--negro);
-    height: 10rem;
-}
-
-@media (min-width: 768px) {
-    .barra-footer{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-        margin-top: 2rem;
-    
-    }
-}
-
-
-
-.logo-footer{
-    color: var(--blanco);
-    margin-top: 3rem;
-    margin-left: 20rem;
-    
-}
-
-.navegacion--footer{
-    margin-top: 3rem;
-    margin-right: 20rem;
-
-}
-
-.navegacion__enlace--footer{
-    color: var(--blanco);
-    margin-right:1rem ;
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
