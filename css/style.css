@@ -222,9 +222,6 @@ img{
 }
 
 /*Sobre nosotros*/
-
-
-
 @media (min-width: 768px) {
     .sobre-nosotros{
         display: grid;
@@ -234,5 +231,60 @@ img{
     }
 }
 
+.sobre-nosotros__imagen img {
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: cover) {
+    .sobre-nosotros__imagen img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
 
+/*Cursos*/
+.curso{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+@media (min-width: 768px) {
+    .curso{
+        display: grid;
+        grid-template-columns: 33% 66.7%;
+        gap: 2rem;
+    }
+     
+}
+
+.curso__label{
+    font-family: var(--fuenteHeading);
+    font-weight: 700;
+}
+
+.curso__info{
+    font-weight: 400;
+}
+
+.curso :last-of-type{
+   border: none;
+}
+
+.curso__label,
+.curso__info{
+    font-size: 2rem;
+}
+
+.curso__imagen img {
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: cover) {
+    .curso__imagen img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
 
