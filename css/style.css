@@ -220,3 +220,19 @@ img{
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+
+/*Sobre nosotros*/
+
+
+
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 2rem;
+       
+    }
+}
+
+
+
