@@ -288,3 +288,14 @@ img{
     }
 }
 
+/*Blog*/
+.blog__imagen{
+   display: flex;
+   justify-content: center;
+}
+@media (min-width: 768px) {
+    .blog__imagen--img{
+        width: 85%;
+     }
+    
+}
