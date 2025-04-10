@@ -168,6 +168,7 @@ img{
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
+    border: none;
 }
 
 @media (min-width: 768px) {
@@ -175,6 +176,10 @@ img{
         display: inline-block;
         margin-bottom: 3rem ;
      }
+}
+
+.boton:hover{
+    cursor: pointer;
 }
 
 .boton--primario{
@@ -307,4 +312,47 @@ img{
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.formulario{
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+
+@media (min-width: 768px) {
+    .campo__label{
+        flex: 0 0 9rem;
+        text-align: right;
+    }
+
+   
+}
+.campo__label{
+    flex: 0 0 6rem;
+    
+}
+
+.campo__field{
+    flex: 1;
+    border: 1px solid var(--gris);
+    width: 100%;
+}
+
+.campo__field--textarea{
+    height: 20rem;
+}
+
+.boton--primario--form{
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
 }
